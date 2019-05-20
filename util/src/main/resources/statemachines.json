@@ -1,0 +1,65 @@
+{
+  "statemachines": {
+    "dispatch": {
+      "Init": [
+        "Cancelled",
+        "Issued"
+      ],
+      "Issued": [
+        "Cancelled",
+        "Loading"
+      ],
+      "Loading": [
+        "Cancelled",
+        "ToLeave"
+      ],
+      "ToLeave": [
+        "Left"
+      ],
+      "Left": [
+        "Delivered"
+      ],
+      "Delivered": [
+        "Finished",
+        "ToReturnWh"
+      ],
+      "ToReturnWh":[
+        "Finished"
+      ]
+    },
+    "transport": {
+      "Init": [
+        "ToCheckPackages",
+        "Cancelled",
+        "Picked"
+      ],
+      "ToCheckPackages": [
+        "Cancelled",
+        "ToLeave"
+      ],
+      "ToLeave": [
+        "Left"
+      ],
+      "Left": [
+        "Arrived"
+      ],
+      "Arrived": [
+        "Received"
+      ],
+      "Picked": [
+        "Received"
+      ]
+    },
+    "logisticsCenterCollectionOrder": {
+      "ToArriveWh": [
+        "ToCheckPackages",
+        "HandedOver",
+        "Cancelled"
+      ],
+      "ToCheckPackages": [
+        "Cancelled",
+        "Confirmed"
+      ]
+    }
+  }
+}
