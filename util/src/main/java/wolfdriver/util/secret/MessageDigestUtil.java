@@ -1,7 +1,7 @@
 package wolfdriver.util.secret;
 
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
+/*import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;*/
 
 import java.security.MessageDigest;
 
@@ -65,7 +65,7 @@ public class MessageDigestUtil {
 
 
 
-    public static String byte2Base64(byte[] bytes) {
+    /*public static String byte2Base64(byte[] bytes) {
         BASE64Encoder base64Encoder = new BASE64Encoder();
         return base64Encoder.encode(bytes);
     }
@@ -73,7 +73,7 @@ public class MessageDigestUtil {
     public static byte[] base642Byte(String base64Content) throws Exception{
         BASE64Decoder base64Decoder = new BASE64Decoder();
         return base64Decoder.decodeBuffer(base64Content);
-    }
+    }*/
 
 
 
