@@ -24,7 +24,7 @@
 		<java-sizeof.version>0.0.5</java-sizeof.version>
 
 		<!-- third-util -->
-		<netty.version>4.1.20.Final</netty.version>
+		<netty.version>4.1.42.Final</netty.version>
 		<java-jwt.version>3.4.0</java-jwt.version>
 
 		<!-- 序列化相关 -->
