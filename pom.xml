@@ -37,7 +37,7 @@
 		<commons-codec.version>1.8</commons-codec.version>
 		<commons-io.version>2.4</commons-io.version>
 		<commons-collections.version>3.2.1</commons-collections.version>
-		<commons-beanutils.version>1.9.2</commons-beanutils.version>
+		<commons-beanutils.version>1.9.4</commons-beanutils.version>
 		<commons-degister.version>1.6</commons-degister.version>
 		<!-- 日志相关 -->
 		<slf4j-api.version>1.7.7</slf4j-api.version>
