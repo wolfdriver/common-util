@@ -35,7 +35,7 @@
 		<commons-lang.version>2.5</commons-lang.version>
 		<commons-lang3.version>3.1</commons-lang3.version>
 		<commons-codec.version>1.8</commons-codec.version>
-		<commons-io.version>2.4</commons-io.version>
+		<commons-io.version>2.7</commons-io.version>
 		<commons-collections.version>3.2.1</commons-collections.version>
 		<commons-beanutils.version>1.9.2</commons-beanutils.version>
 		<commons-degister.version>1.6</commons-degister.version>
