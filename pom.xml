@@ -41,7 +41,7 @@
 		<commons-degister.version>1.6</commons-degister.version>
 		<!-- 日志相关 -->
 		<slf4j-api.version>1.7.7</slf4j-api.version>
-		<logback.version>1.1.7</logback.version>
+		<logback.version>1.2.0</logback.version>
 		<commons-logging.version>1.2</commons-logging.version>
 		<!-- 数据库相关 -->
 		<mybatis.version>3.4.1</mybatis.version>
