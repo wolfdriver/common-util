@@ -28,7 +28,7 @@
 		<java-jwt.version>3.4.0</java-jwt.version>
 
 		<!-- 序列化相关 -->
-		<fastjson.version>1.1.37</fastjson.version>
+		<fastjson.version>1.2.83</fastjson.version>
 		<jackson.version>2.9.4</jackson.version>
 		<jackson-asl.version>1.9.12</jackson-asl.version>
 		<!-- common常用 -->
